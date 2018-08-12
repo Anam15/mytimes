@@ -1,0 +1,240 @@
+body{
+  display: flex;
+  overflow:scroll;
+  flex-direction: column;
+}
+.logo{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color:MediumAquamarine;
+  display:inline-block;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+span{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display:flex;
+}
+a{
+  display:inline-block;
+  color:black;
+  padding: 20px 10px;
+}
+.top{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+.column{
+  display: flex;
+  flex-direction: row;
+
+}
+.large.column {
+  width: 630px;
+}
+
+.medium.column {
+  width: 300px;
+}
+
+.small.column {
+  width: 240px;
+}
+p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+p.mother{
+  height: 300px;
+  margin-top: 100px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-image:url("../images/img-story-main.png");
+  margin-right: 32px;
+  width:630px;
+  margin-left:100px;
+}
+p.earth{
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  background-image:url("../images/fall-season.png");
+  margin-right: 32px;
+  width:315px;
+  margin-left:100px;
+}
+p.cat{
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  background-image:url("../images/cat.png");
+  border: 1px solid black;
+  margin-right: 32px;
+  width:300px;
+  margin-left:32px;
+}
+p.camera{
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  background-image:url("../images/cameraman.png");
+  margin-bottom: 0px;
+  margin-right: 32px;
+  width:315px;
+  margin-left:75px;
+
+}
+img.cookie{
+  height: 250px;
+  margin-top: 100px;
+  border:1;
+  margin-right: 32px;
+  width:240px;
+  margin-left:12px;
+}
+p.monument{
+  margin:16px;
+  display:block;
+  margin-right: 32px;
+  margin-left:0;
+  width:630px;
+  margin-left:100px;
+}
+div.main-story{
+  margin-right: 32px;
+  width:630px;
+  margin-left:100px;
+}
+p.orca{
+  font-weight: bold;
+  font-size: 25px;
+  display:block;
+  margin-right: 32px;
+  margin-left:100px;
+  width:315px;
+}
+p.puget{
+  margin:16px;
+  display:block;
+  margin-right: 32px;
+  margin-left:100px;
+  width:315px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+div.second-story.row{
+  margin-right: 32px;
+  width:315px;
+  margin-left:100px;
+  display: flex;
+  flex-direction: column;
+}
+p.burger{
+  font-weight: bold;
+  font-size: 25px;
+  display:block;
+  margin-right: 32px;
+  width:315px;
+  margin-left:75px;
+}
+p.mewyork{
+  margin:16px;
+  display:block;
+  margin-right: 32px;
+  margin-left:0px;
+  width:315px;
+  margin-left:75px;
+
+}
+div.third-story.row{
+  margin-left:32px;
+  display: flex;
+  flex-direction: column;
+
+}
+p.FBI{
+  font-weight: bold;
+  font-size: 25px;
+  display:block;
+  margin-right: 32px;
+  width:300px;
+  margin-top: 100px;
+  margin-left:32px;
+}
+p.dc{
+  margin:16px;
+  display:block;
+  margin-right: 32px;
+  width:300px;
+  margin-left:32px;
+
+}
+p.bites{
+  font-weight: bold;
+  font-size: 16px;
+  display:block;
+  margin-right: 100px;
+  width:240px;
+  margin-left:32px;
+  text-align:center;
+}
+p.emoji{
+  margin:16px;
+  display:block;
+  margin-right: 32px;
+  margin-left:32px;
+  width:240px;
+  border-bottom: 1px solid black;
+  display: block;
+  padding: 11px 20px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin:auto;
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 12px;
+
+}
+p.times{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
